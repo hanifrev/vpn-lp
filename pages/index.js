@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Grid from '@mui/material/Grid';
 import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
+import First_Section from '../src/components/first_section';
 
 export default function Home() {
   return (
@@ -13,8 +14,8 @@ export default function Home() {
       </Head>
 
       <div>
-        <Grid xs={11} md={10} sx={{ mx: 'auto' }}>
-          TEST
+        <Grid xs={11} md={11} sx={{ mx: 'auto' }}>
+          <First_Section />
         </Grid>
       </div>
       
